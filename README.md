@@ -2,7 +2,7 @@
 
 API Rest do projeto FeedFront
 
-## Chellange 2024 - Turma Z
+## Chellange 2024 - Turma Z (Vissa - Turma Y)
 
 ## Integrantes do Grupo:
 - Paolla Felix - Desenvolvedor Back-end (Responsável pela implementação das entidades e repositórios)
@@ -49,13 +49,14 @@ mvn spring-boot:run
 
 ## Vídeo Apresentação
 
-[Vídeo de apresentação do projeto](LINK_DO_SEU_VÍDEO)
+[Vídeo de apresentação do projeto](LINK_VÍDEO)
 
 
 ## Requisitos
 
 - [x] CRUD de Clientes
-- [x] CRUD de FeedbacksV- [ ] Integração com AI generativa
+- [x] CRUD de FeedbacksV
+- [ ] Integração com AI generativa
 - [ ] Respostas personalizadas
 - [ ] Soluções para problemas identificados
 - [ ] Autenticação
@@ -94,7 +95,7 @@ Retorna um array com todos os clientes cadastrados.
     }
 ]
 
-#### Códigos de Resposta
+#### Código de Resposta
 
 | código | descrição |
 |--------|-----------|

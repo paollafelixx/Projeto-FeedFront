@@ -44,17 +44,18 @@ mvn spring-boot:run
 ## Imagem dos Diagramas 
 
 ![Diagrama de Classes de Entidade](imagens/diagrama_classes.png)
-![Diagrama de Entidades e Relacionamento (DER)] (imagens/diagrama_der.png)
+![Diagrama de Entidades e Relacionamento (DER)](imagens/diagrama_der.png)
+
 
 ## Vídeo Apresentação
 
-Vídeo Apresentação
+[Vídeo de apresentação do projeto](LINK_DO_SEU_VÍDEO)
+
 
 ## Requisitos
 
 - [x] CRUD de Clientes
-- [x] CRUD de Feedbacks
-- [ ] Integração com AI generativa
+- [x] CRUD de FeedbacksV- [ ] Integração com AI generativa
 - [ ] Respostas personalizadas
 - [ ] Soluções para problemas identificados
 - [ ] Autenticação

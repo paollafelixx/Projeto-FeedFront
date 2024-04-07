@@ -1,4 +1,4 @@
-# Proejto FeedFront - Sistema de Gestão Proativa de Feedback
+# Projeto FeedFront - Sistema de Gestão Proativa de Feedback
 
 API Rest do projeto FeedFront
 
@@ -6,16 +6,49 @@ API Rest do projeto FeedFront
 
 ## Integrantes do Grupo:
 - Paolla Felix - Desenvolvedor Back-end (Responsável pela implementação das entidades e repositórios)
-- Matheus Grando - Desenvolvedora Front-end (Responsável pela implementação dos controladores REST)
-- Lais - Analista de Qualidade (Responsável pelos testes e pela gestão de configuração)
-- Blossom Moreira
-- Vissa 
+- Matheus Grando e Blossom Moreira - Desenvolvedora Front-end (Responsável pela implementação dos controladores REST)
+- Lais e Vissa - Analista de Qualidade (Responsável pelos testes e pela gestão de configuração)
+
 
 ## Como rodar a aplicação:
 ### Pré-requisitos:
-- Java JDK 11 ou superior
-- Maven
-- MySQL (ou outro banco de dados relacional)
+- Java JDK 11 ou superior instalado e configurado no PATH do sistema.
+- Maven instalado e configurado no PATH do sistema.
+- MySQL (ou outro banco de dados relacional) instalado e configurado.
+
+### Passos para executar a aplicação:
+
+1. Clone o repositório para o seu ambiente local:
+```sh
+git clone https://github.com/seu-usuario/projeto-feedfront.git
+```
+2. Navegar até o diretorio do projeto:
+```sh
+cd feedfront
+```
+3. Configure as propriedades do banco de dados no arquivo application.properties localizado em src/main/resources
+
+- Exemplo:
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/feedfront
+spring.datasource.username=seu-usuario-banco
+spring.datasource.password=sua-senha-banco
+```
+
+4. Execute o comando Maven para compilar e executar a aplicação:
+```sh
+mvn spring-boot:run
+```
+5. Acesse a aplicação em http://localhost:8080
+
+## Imagem dos Diagramas 
+
+![Diagrama de Classes de Entidade](imagens/diagrama_classes.png)
+![Diagrama de Entidades e Relacionamento (DER)] (imagens/diagrama_der.png)
+
+## Vídeo Apresentação
+
+Vídeo Apresentação
 
 ## Requisitos
 

@@ -90,8 +90,8 @@ Retorna um array com todos os clientes cadastrados.
 [
     {
         "id": 1,
-        "nome": "João Silva",
-        "email": "joao@example.com"
+        "nome": "Billie Eillish",
+        "email": "billieo@outlook.com"
     }
 ]
 
@@ -176,8 +176,8 @@ Retorna os dados do cliente com o `id` informado no parâmetro de path.
 // requisição /clientes/1
 {
     "id": 1,
-    "nome": "João Silva",
-    "email": "joao@example.com"
+    "nome": "Billie Eillish",
+    "email": "billie@outlook.com"
 }
 
 ```
